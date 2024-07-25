@@ -1,0 +1,74 @@
+{
+  "servers": [
+    {
+      "id": 1,
+      "name": "Server 1",
+      "diskSpace": {
+        "Total": 500,
+        "used": 200,
+        "free": 300,
+        "percent": 40
+      }
+    },
+    {
+      "id": 2,
+      "name": "Server 2",
+      "diskSpace": {
+        "Total": 1000,
+        "used": 600,
+        "free": 400,
+        "percent": 60
+      }
+    },
+    {
+      "id": 3,
+      "name": "Server 3",
+      "diskSpace": {
+        "Total": 750,
+        "used": 300,
+        "free": 450,
+        "percent": 40
+      }
+    },
+    {
+      "id": 4,
+      "name": "Server 4",
+      "diskSpace": {
+        "Total": 2000,
+        "used": 1500,
+        "free": 500,
+        "percent": 75
+      }
+    },
+    {
+      "id": 5,
+      "name": "Server 5",
+      "diskSpace": {
+        "Total": 300,
+        "used": 100,
+        "free": 200,
+        "percent": 33
+      }
+    },
+    {
+      "id": 6,
+      "name": "Server 6",
+      "diskSpace": {
+        "Total": 600,
+        "used": 250,
+        "free": 350,
+        "percent": 42
+      }
+    },
+    {
+      "id": 7,
+      "name": "Server 7",
+      "diskSpace": {
+        "Total": 1200,
+        "used": 800,
+        "free": 400,
+        "percent": 67
+      }
+    }
+  ]
+}

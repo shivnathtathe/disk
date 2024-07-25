@@ -1,0 +1,103 @@
+// styles.scss
+
+// Variables for easy customization
+$primary-color: #007bff;
+$secondary-color: #6c757d;
+$background-color: #f8f9fa;
+$border-color: #dee2e6;
+$font-family: Arial, sans-serif;
+
+// General styling
+body {
+  font-family: $font-family;
+  background-color: $background-color;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid $border-color;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+
+  h1 {
+    color: $primary-color;
+    margin-bottom: 20px;
+  }
+
+  label {
+    font-size: 16px;
+    color: $secondary-color;
+    margin-right: 10px;
+  }
+
+  select {
+    padding: 10px;
+    border: 1px solid $border-color;
+    border-radius: 3px;
+    font-size: 14px;
+    color: $secondary-color;
+    margin-bottom: 20px;
+  }
+
+  button {
+    background-color: $primary-color;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: darken($primary-color, 10%);
+    }
+  }
+
+  .disk-details {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid $border-color;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    display: flex;
+    gap: 30px;
+
+    h3 {
+      color: $primary-color;
+      margin-bottom: 10px;
+    }
+
+    p {
+      margin: 5px 0;
+      font-size: 16px;
+      color: $secondary-color;
+    }
+  }
+}
+
+.innerText {
+  position: absolute;
+  top: 300px;
+  left: 720px;
+}
+
+.left {
+  // background-color: red;
+}
+
+.right {
+  // background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+}
